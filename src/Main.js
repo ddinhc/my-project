@@ -6,7 +6,7 @@ function Main(){
         <div className="card text-center">
             <div className="card-header">My Quick Facts</div>
             <div className="card-body">
-                <h5 className="card-title">Special title treatment</h5>
+               
                 <p className="card-text">
                     <ul className="list-group">
                           <li className="list-group-item d-flex justify-content-between align-items-center">
@@ -24,7 +24,7 @@ function Main(){
                                 <span className="badge badge-primary badge-pill mx-auto" data-placement="top" title="你好!">Cantonese</span>
                                 <span className="badge badge-primary badge-pill mx-auto" data-placement="top" title="你好!">Mandarin</span>
                                 <span className="badge badge-primary badge-pill mx-auto" data-placement="top" title="Hello!">English</span>
-                                <span className="badge badge-primary badge-pill mx-auto" data-placement="top" title="Click me!">American Sign Language (ASL)</span>
+                                <a href="https://www.lifeprint.com/asl101/pages-signs/h/hello.htm"><span className="badge badge-primary badge-pill mx-auto" data-placement="top" title="Click me!">American Sign Language (ASL)</span></a>
                                 
                             </li>
                         </ul> 

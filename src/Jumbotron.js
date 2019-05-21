@@ -3,7 +3,7 @@ import React from 'react'
 function Jumbotron (){
     
     return(    
-        <div className="jumbotron jumbotron-fluid">
+        <div className="jumbotron jumbotron-fluid" title="Decorative Image Background.">
               <div className="container overlay">
                 <h1 className="display-4">Welcome to Dinh's Home</h1>
                 <p className="lead">Nothing is imposible if we try our best!</p>
