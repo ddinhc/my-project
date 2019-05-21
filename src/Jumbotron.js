@@ -9,7 +9,7 @@ function Jumbotron (){
                 <p className="lead">Nothing is imposible if we try our best!</p>
         <hr className="my-4"/>
 <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Contact Me</a>
+    <a class="btn btn-primary btn-lg" href="mailto:duy.dinhcs@gmail.com" role="button">Contact Me</a>
            </p>   </div>
         </div>
     )
