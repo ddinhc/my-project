@@ -21,6 +21,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "a193b7b49373a9bbaeab963cdc6b9433",
-    "url": "/my-project/static/media/jumbotron.a193b7b4.jpg"
+    "url": "/static/media/jumbotron.a193b7b4.jpg"
   }
 ]);
