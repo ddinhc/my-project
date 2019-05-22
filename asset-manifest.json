@@ -11,6 +11,6 @@
     "precache-manifest.035f0575785831b6392480a778531f70.js": "/my-project/precache-manifest.035f0575785831b6392480a778531f70.js",
     "service-worker.js": "/my-project/service-worker.js",
     "static/css/main.6c6a3da8.chunk.css.map": "/my-project/static/css/main.6c6a3da8.chunk.css.map",
-    "static/media/stylesheet.css": "/my-project/static/media/jumbotron.a193b7b4.jpg"
+    "static/media/stylesheet.css": "/static/media/jumbotron.a193b7b4.jpg"
   }
 }
