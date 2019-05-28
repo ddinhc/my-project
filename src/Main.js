@@ -21,7 +21,7 @@ function Main(){
                           <li className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                             Laguages:
                                
-                                <span className="badge badge-primary badge-pill mx-auto" data-toggle="tooltip" data-placement="top" title="Xin Chào!">Vietnamese</span>
+                                <span type="button"className="badge badge-primary badge-pill mx-auto" data-toggle="tooltip" data-placement="top" title="Xin Chào!">Vietnamese</span>
                                 <span className="badge badge-primary badge-pill mx-auto" data-toggle="tooltip" data-placement="top" title="你好!">Cantonese</span>
                                 <span className="badge badge-primary badge-pill mx-auto" data-toggle="tooltip" data-placement="top" title="你好!">Mandarin</span>
                                 <span className="badge badge-primary badge-pill mx-auto" data-toggle="tooltip" data-placement="top" title="Hello!">English</span>
