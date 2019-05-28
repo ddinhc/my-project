@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.22af7e26.chunk.css",
-    "main.js": "/static/js/main.1b3a36fe.chunk.js",
-    "main.js.map": "/static/js/main.1b3a36fe.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.b41502e9.chunk.js": "/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/static/js/2.b41502e9.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3c33cca299df9536ee48ed6bd29bc690.js": "/precache-manifest.3c33cca299df9536ee48ed6bd29bc690.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.22af7e26.chunk.css.map": "/static/css/main.22af7e26.chunk.css.map",
-    "static/media/CardImage.jpg": "/static/media/CardImage.8b85b0c1.jpg",
-    "static/media/stylesheet.css": "/static/media/jumbotron.a193b7b4.jpg"
+    "main.css": "/my-project/static/css/main.6c6a3da8.chunk.css",
+    "main.js": "/my-project/static/js/main.8c989f2d.chunk.js",
+    "main.js.map": "/my-project/static/js/main.8c989f2d.chunk.js.map",
+    "runtime~main.js": "/my-project/static/js/runtime~main.8ce5ffd9.js",
+    "runtime~main.js.map": "/my-project/static/js/runtime~main.8ce5ffd9.js.map",
+    "static/js/2.1ddc5724.chunk.js": "/my-project/static/js/2.1ddc5724.chunk.js",
+    "static/js/2.1ddc5724.chunk.js.map": "/my-project/static/js/2.1ddc5724.chunk.js.map",
+    "index.html": "/my-project/index.html",
+    "precache-manifest.80d6de902e3e0cf47ffb0884667e5574.js": "/my-project/precache-manifest.80d6de902e3e0cf47ffb0884667e5574.js",
+    "service-worker.js": "/my-project/service-worker.js",
+    "static/css/main.6c6a3da8.chunk.css.map": "/my-project/static/css/main.6c6a3da8.chunk.css.map",
+    "static/media/CardImage.jpg": "/my-project/static/media/CardImage.8b85b0c1.jpg",
+    "static/media/stylesheet.css": "/my-project/static/media/jumbotron.a193b7b4.jpg"
   }
 }
