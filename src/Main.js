@@ -5,7 +5,7 @@ function Main(){
     return( 
         
         <div className="card text-center">
-            <div className="card-header text-white bg-dark">My Quick Facts</div>
+            <div className="card-header text-white bg-danger">My Quick Facts</div>
             <div className="card-body">
                
                 <p className="card-text">
@@ -33,7 +33,7 @@ function Main(){
                 <a href="https://www.linkedin.com/in/duy-dinh-862ba596/" className="btn btn-primary">My Linkedin</a>
     
             </div>
-            <div className="card-footer text-white bg-dark"> All up to date! </div>
+            <div className="card-footer  text-white bg-danger"> All up to date! </div>
             
             <h2>My Interests</h2>
             <Interests />

@@ -1,5 +1,7 @@
 import React from 'react'
 import CardImage from './images/CardImage.jpg'
+import ReactPlayer from 'react-player'
+
 function Projects(){
     return(
       
@@ -10,8 +12,9 @@ function Projects(){
                       <div className="card-title h5">Sau Chieu Store Website</div>
                       <p className="card-text">Display About, Contact, Gallery and etc about the auto-part store.</p>
          <a href="https://ddinhc.github.io/sauchieu-store/" class="btn btn-primary">Visit Site</a>
-                        <ul className="list-group list-group-flush"><strong>Core Languages:</strong>
+                        <ul className="list-group list-group-flush"><strong>Core Languages & Frameworks:</strong>
                             <li className="list-group-item">HTML, CSS</li>
+                            <li className="list-group-item">Bootstrap 4</li>
                             <li className="list-group-item">JavaScripts, Angular.js</li>
                           </ul>
        
@@ -27,7 +30,19 @@ function Projects(){
               </footer>
             </blockquote>
           </div>
-        
+        <div className="card">
+             <ReactPlayer className="card-img-top" url='https://youtu.be/cgRV-PEwQfM' playing />
+            <div className="card-body">
+            <div className="card-title h5">Mobile Webapp</div>
+              <p className="card-text"></p>
+              <p className="card-text"><small className="text-muted">Webapp for travelers to find food & drink, hotels, shopping malls and parks and check the weathers before deciding where to go. </small></p>
+                <ul className="list-group list-group-flush"><strong>Core Languages & Frameworks:</strong>
+                            <li className="list-group-item">HTML, CSS</li>
+                            <li className="list-group-item">JavaScripts</li>
+                            <li className="list-group-item">jQuery Mobile, Bootstrap 4</li>              
+                          </ul>
+            </div>
+        </div>
          
         
        

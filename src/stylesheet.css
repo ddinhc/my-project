@@ -8,3 +8,10 @@
       
 }
 
+.btn-primary, .badge-primary{
+    background-color: #006bf8;
+}
+
+.text-white {
+    color: #ffffff;
+}
