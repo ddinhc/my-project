@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.63aa1753.chunk.css",
+    "main.css": "/static/css/main.77c9b7e7.chunk.css",
     "main.js": "/static/js/main.b9d0a30e.chunk.js",
     "main.js.map": "/static/js/main.b9d0a30e.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.2f42a1fc.chunk.js": "/static/js/2.2f42a1fc.chunk.js",
     "static/js/2.2f42a1fc.chunk.js.map": "/static/js/2.2f42a1fc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2a763151b8799d07401d95c16829a7b2.js": "/precache-manifest.2a763151b8799d07401d95c16829a7b2.js",
+    "precache-manifest.3888fbdfe9bab3c7c787b3956e06c7b9.js": "/precache-manifest.3888fbdfe9bab3c7c787b3956e06c7b9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.63aa1753.chunk.css.map": "/static/css/main.63aa1753.chunk.css.map",
+    "static/css/main.77c9b7e7.chunk.css.map": "/static/css/main.77c9b7e7.chunk.css.map",
     "static/media/CardImage.jpg": "/static/media/CardImage.8b85b0c1.jpg",
     "static/media/stylesheet.css": "/static/media/jumbotron.a193b7b4.jpg"
   }
