@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactTooltip from 'react-tooltip'
 import Interests from './Interests'
 function Main(){
     
@@ -21,11 +22,26 @@ function Main(){
                           <li className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                             Laguages:
                                
-                                <span type="button"className="badge badge-primary badge-pill mx-auto" data-toggle="tooltip" data-placement="top" title="Xin Chào!">Vietnamese</span>
-                                <span className="badge badge-primary badge-pill mx-auto" data-toggle="tooltip" data-placement="top" title="你好!">Cantonese</span>
-                                <span className="badge badge-primary badge-pill mx-auto" data-toggle="tooltip" data-placement="top" title="你好!">Mandarin</span>
-                                <span className="badge badge-primary badge-pill mx-auto" data-toggle="tooltip" data-placement="top" title="Hello!">English</span>
-                                <a href="https://www.lifeprint.com/asl101/pages-signs/h/hello.htm"><span className="badge badge-primary badge-pill mx-auto" data-placement="top" title="Click me!">American Sign Language (ASL)</span></a>
+                                <span className="badge badge-primary badge-pill mx-auto my-auto" data-tip data-for="vietnamese" data-place="bottom">Vietnamese</span>
+                                <ReactTooltip id="vietnamese" type='error'>
+                                  <span>Xin Chào!</span>
+                                </ReactTooltip>
+                                <span className="badge badge-primary badge-pill mx-auto my-auto" data-tip data-for="cantonese" data-place="bottom">Cantonese</span>
+                                <ReactTooltip id="cantonese" type='error'>
+                                  <span>你好!</span>
+                                </ReactTooltip>
+                                <span className="badge badge-primary badge-pill mx-auto my-auto" data-tip data-for="mandarin" data-place="bottom">Mandarin</span>
+                                <ReactTooltip id="mandarin" type='error'>
+                                  <span>你好!</span>
+                                </ReactTooltip>
+                                <span className="badge badge-primary badge-pill mx-auto my-auto" data-tip data-for="english" data-place="bottom">English</span>
+                                <ReactTooltip id="english" type='error'>
+                                  <span>Hello!</span>
+                                </ReactTooltip>
+                               <span className="badge badge-primary badge-pill mx-auto" data-place="bottom" data-tip data-for="asl"> <a className="text-white card-link" href="https://www.lifeprint.com/asl101/pages-signs/h/hello.htm">American Sign Language (ASL)</a></span>
+                                <ReactTooltip id="asl" type='error'>
+                                  <span>View the "Hi" video in ASL.</span>
+                                </ReactTooltip>
                                 
                             </li>
                         </ul> 
