@@ -23,23 +23,23 @@ function Main(){
                             Laguages:
                                
                                 <span className="badge badge-primary badge-pill mx-auto my-auto" data-tip data-for="vietnamese" data-place="bottom">Vietnamese</span>
-                                <ReactTooltip id="vietnamese" type='error'>
+                                <ReactTooltip id="vietnamese" type='error' className="tooltips">
                                   <span>Xin Chào!</span>
                                 </ReactTooltip>
                                 <span className="badge badge-primary badge-pill mx-auto my-auto" data-tip data-for="cantonese" data-place="bottom">Cantonese</span>
-                                <ReactTooltip id="cantonese" type='error'>
+                                <ReactTooltip id="cantonese" type='error' className="tooltips">
                                   <span>你好!</span>
                                 </ReactTooltip>
-                                <span className="badge badge-primary badge-pill mx-auto my-auto" data-tip data-for="mandarin" data-place="bottom">Mandarin</span>
-                                <ReactTooltip id="mandarin" type='error'>
+                                <span className="badge badge-primary badge-pill mx-auto my-1" data-tip data-for="mandarin" data-place="bottom">Mandarin</span>
+                                <ReactTooltip id="mandarin" type='error' className="tooltips">
                                   <span>你好!</span>
                                 </ReactTooltip>
-                                <span className="badge badge-primary badge-pill mx-auto my-auto" data-tip data-for="english" data-place="bottom">English</span>
-                                <ReactTooltip id="english" type='error'>
+                                <span className="badge badge-primary badge-pill mx-auto my-1" data-tip data-for="english" data-place="bottom">English</span>
+                                <ReactTooltip id="english" type='error' className="tooltips">
                                   <span>Hello!</span>
                                 </ReactTooltip>
                                <span className="badge badge-primary badge-pill mx-auto" data-place="bottom" data-tip data-for="asl"> <a className="text-white card-link" href="https://www.lifeprint.com/asl101/pages-signs/h/hello.htm">American Sign Language (ASL)</a></span>
-                                <ReactTooltip id="asl" type='error'>
+                                <ReactTooltip id="asl" type='error' className="tooltips">
                                   <span>View the "Hi" video in ASL.</span>
                                 </ReactTooltip>
                                 

@@ -31,7 +31,7 @@ function Projects(){
             </blockquote>
           </div>
         <div className="card">
-             <ReactPlayer className="card-img-top" url='https://youtu.be/cgRV-PEwQfM' playing width="100%" height="100%"/>
+             <ReactPlayer className="card-img-top" url='https://youtu.be/cgRV-PEwQfM' playing width="100%" height="320px" controls="true" />
             <div className="card-body">
             <div className="card-title h5">Mobile Webapp</div>
               <p className="card-text"></p>

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './stylesheet.css'
+import scripts from './scripts.js'
 import App from './App';
 
 

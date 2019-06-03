@@ -15,3 +15,11 @@
 .text-white {
     color: #ffffff;
 }
+
+.bg-danger {
+    background-color: #9B0F1D !important;
+}
+
+.__react_component_tooltip.type-error {
+    background-color: #9B0F1D !important;
+}
