@@ -1,6 +1,8 @@
 import React from 'react'
-import ReactTooltip from 'react-tooltip'
-import Interests from './Interests'
+
+import Project from './Project'
+import HintList from './HintList'
+import CardImage from './images/CardImage.jpg'
 function Main(){
     
     return( 
@@ -21,28 +23,13 @@ function Main(){
                           </li>
                           <li className="list-group-item d-flex justify-content-between align-items-center flex-wrap">
                             Laguages:
-                               
-                                <span className="badge badge-primary badge-pill mx-auto my-auto" data-tip data-for="vietnamese" data-place="bottom">Vietnamese</span>
-                                <ReactTooltip id="vietnamese" type='error' className="tooltips">
-                                  <span>Xin Chào!</span>
-                                </ReactTooltip>
-                                <span className="badge badge-primary badge-pill mx-auto my-auto" data-tip data-for="cantonese" data-place="bottom">Cantonese</span>
-                                <ReactTooltip id="cantonese" type='error' className="tooltips">
-                                  <span>你好!</span>
-                                </ReactTooltip>
-                                <span className="badge badge-primary badge-pill mx-auto my-1" data-tip data-for="mandarin" data-place="bottom">Mandarin</span>
-                                <ReactTooltip id="mandarin" type='error' className="tooltips">
-                                  <span>你好!</span>
-                                </ReactTooltip>
-                                <span className="badge badge-primary badge-pill mx-auto my-1" data-tip data-for="english" data-place="bottom">English</span>
-                                <ReactTooltip id="english" type='error' className="tooltips">
-                                  <span>Hello!</span>
-                                </ReactTooltip>
-                               <span className="badge badge-primary badge-pill mx-auto" data-place="bottom" data-tip data-for="asl"> <a className="text-white card-link" href="https://www.lifeprint.com/asl101/pages-signs/h/hello.htm">American Sign Language (ASL)</a></span>
-                                <ReactTooltip id="asl" type='error' className="tooltips">
-                                  <span>View the "Hi" video in ASL.</span>
-                                </ReactTooltip>
-                                
+                             
+                                <HintList lang="Vietnamese" hint="Xin Chào!" identifier="vietnamese"/>
+                                <HintList lang="Cantonese" hint="你好!" identifier="cantonese"/>
+                                <HintList lang="Mandarin" hint="你好!" identifier="mandarin"/>
+                                <HintList lang="English" hint="Hello!" identifier="english"/>
+                                <HintList lang="American Sign Language (ASL)" hint='View the "Hi" video in ASL.' identifier="asl"/>
+                      
                             </li>
                         </ul> 
                 </p>
@@ -52,7 +39,40 @@ function Main(){
             <div className="card-footer  text-white bg-danger"> All up to date! </div>
             
             <h2>My Interests</h2>
-            <Interests />
+             <div className="card-columns">
+                <div className="card">
+                    <img src={CardImage} alt="Card image cap" className="card-img-top"/>
+                    <div className="card-body">
+                      <div className="card-title h5">Sau Chieu Store Website</div>
+                      <p className="card-text">Display About, Contact, Gallery and etc about the auto-part store.</p>
+                     <a href="https://ddinhc.github.io/sauchieu-store/" class="btn btn-primary">Visit Site</a>
+                                    <ul className="list-group list-group-flush"><strong>Core Languages & Frameworks:</strong>
+                                        <li className="list-group-item">HTML, CSS</li>
+                                        <li className="list-group-item">Bootstrap 4</li>
+                                        <li className="list-group-item">JavaScripts, Angular.js</li>
+                                      </ul>
+
+                    </div>
+                </div>
+        
+          <div className="card p-3">
+            <blockquote className="blockquote mb-0 card-body">
+            
+              <p>Faith is taking the first step even when you don't see the whole staircase.</p>
+              <footer className="blockquote-footer">
+                <small className="text-muted">
+                  Martin Luther King, Jr. in <cite title="Source Title">Brainy Quote</cite>
+                </small>
+              </footer>
+            </blockquote>
+          </div>
+        <Project videoURL="https://youtu.be/cgRV-PEwQfM" heading="Mobile Webapp" description="Webapp for travelers to find food & drink, hotels, shopping malls and parks and check the weathers before deciding where to go." item1="HTML, CSS" item2="JavaScripts" item3="jQuery Mobile, Bootstrap 4"/>
+        
+       
+         
+        
+       
+        </div>
 
         </div>
     )

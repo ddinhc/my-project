@@ -23,3 +23,7 @@
 .__react_component_tooltip.type-error {
     background-color: #9B0F1D !important;
 }
+
+.tooltip {
+    cursor:pointer;
+}
