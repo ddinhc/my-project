@@ -24,6 +24,6 @@
     background-color: #9B0F1D !important;
 }
 
-.tooltip {
+span .tooltips, ReactTooltip .tooltips {
     cursor:pointer;
 }

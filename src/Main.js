@@ -28,7 +28,7 @@ function Main(){
                                 <HintList lang="Cantonese" hint="你好!" identifier="cantonese"/>
                                 <HintList lang="Mandarin" hint="你好!" identifier="mandarin"/>
                                 <HintList lang="English" hint="Hello!" identifier="english"/>
-                                <HintList lang="American Sign Language (ASL)" hint='View the "Hi" video in ASL.' identifier="asl"/>
+                                <HintList lang="American Sign Language (ASL)" hint='View the "Hi" video in ASL.' identifier="asl" source="https://www.babysignlanguage.com/dictionary/h/hello/?v=7516fd43adaa"/>
                       
                             </li>
                         </ul> 
