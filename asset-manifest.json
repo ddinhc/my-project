@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.441cf503.chunk.css",
-    "main.js": "/static/js/main.53ac1dc8.chunk.js",
-    "main.js.map": "/static/js/main.53ac1dc8.chunk.js.map",
+    "main.css": "/static/css/main.ac47e2ff.chunk.css",
+    "main.js": "/static/js/main.7d43d11a.chunk.js",
+    "main.js.map": "/static/js/main.7d43d11a.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.c707f1ad.chunk.js": "/static/js/2.c707f1ad.chunk.js",
     "static/js/2.c707f1ad.chunk.js.map": "/static/js/2.c707f1ad.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a68226dd61ab6e58c9d61b31b177d633.js": "/precache-manifest.a68226dd61ab6e58c9d61b31b177d633.js",
+    "precache-manifest.36ae311fa4873d8eecf8ea68bccecb25.js": "/precache-manifest.36ae311fa4873d8eecf8ea68bccecb25.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.441cf503.chunk.css.map": "/static/css/main.441cf503.chunk.css.map",
+    "static/css/main.ac47e2ff.chunk.css.map": "/static/css/main.ac47e2ff.chunk.css.map",
     "static/media/CardImage.jpg": "/static/media/CardImage.8b85b0c1.jpg",
     "static/media/stylesheet.css": "/static/media/jumbotron.a193b7b4.jpg"
   }
