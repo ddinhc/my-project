@@ -20,10 +20,45 @@
     background-color: #9B0F1D !important;
 }
 
-.__react_component_tooltip.type-error {
+/*.__react_component_tooltip.type-error {
     background-color: #9B0F1D !important;
 }
 
 span .tooltips, ReactTooltip .tooltips {
     cursor:pointer;
+}*/
+
+.card-link a {
+    color: #fff;
+    display:inline-block;
+width: 100%;
+
 }
+
+.tooltiptext {
+    visibility: none;
+    width: 120px;
+    background-color: #9B0F1D;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 99;
+    bottom: 100%;
+    opacity: 0.7;
+    
+  }
+  
+  .tooltiptext::after {
+      content: " ";
+      position: absolute;
+      top: 100%; /* At the bottom of the tooltip */
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent;
+    }

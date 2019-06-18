@@ -1,15 +1,47 @@
 import React from 'react'
 import ReactTooltip from 'react-tooltip'
-function HintList(props) {
-    return(
-        <div className="hint-list">
-            <span className="badge badge-primary badge-pill mx-1 my-auto" data-tip data-for={props.identifier} data-place="bottom"><a className="text-white card-link" href={props.source}>{props.lang}</a></span>
-            <ReactTooltip id={props.identifier} type='error' className="tooltips"  >
-              <span>{props.hint}</span>
-            </ReactTooltip>
+export default class HintList extends React.Component {
+    state = {
+        on: false
+    }
 
-        </div>
-    )
+    handleClick = () => {
+        this.setState({
+            on: !this.state.on
+        })
+    }
+
+    handleMouseOut = () => {
+        this.setState ({
+            on: false
+        })
+    }
+
+   
+
+    componentDidUpdate(){
+        setTimeout(() => {
+            if(this.state.on){
+              window.addEventListener('click', this.onMouseOut)
+            }
+            else{
+              window.removeEventListener('click', this.onMouseOut)
+            }
+          }, 0)
+      }
+
+    render(){
+
+        return (
+            <div className="hint-list">
+                {
+                    this.state.on && (
+                        <span className="tooltiptext">{this.props.hint}</span>
+                    )
+                }
+                <span className="badge badge-primary badge-pill mx-1 my-auto card-link"><a className="card-link hint" onClick={this.handleClick} onMouseOut={this.handleMouseOut} href={this.props.source}>{this.props.lang}</a></span>
+            </div>
+        )
+    }
 }
 
-export default HintList
