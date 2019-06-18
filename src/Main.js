@@ -40,21 +40,8 @@ function Main(){
             
             <h2>My Interests</h2>
              <div className="card-columns">
-                <div className="card">
-                    <img src={CardImage} alt="Card image cap" className="card-img-top"/>
-                    <div className="card-body">
-                      <div className="card-title h5">Sau Chieu Store Website</div>
-                      <p className="card-text">Display About, Contact, Gallery and etc about the auto-part store.</p>
-                     <a href="https://ddinhc.github.io/sauchieu-store/" class="btn btn-primary">Visit Site</a>
-                                    <ul className="list-group list-group-flush"><strong>Core Languages & Frameworks:</strong>
-                                        <li className="list-group-item">HTML, CSS</li>
-                                        <li className="list-group-item">Bootstrap 4</li>
-                                        <li className="list-group-item">JavaScripts, Angular.js</li>
-                                      </ul>
-
-                    </div>
-                </div>
-        
+                
+            <Project videoBool="false" imgSrc={CardImage} alt="Card image cap" heading="Sau Chieu Store Website" description="Display About, Contact, Gallery and etc about the auto-part store." link="https://ddinhc.github.io/sauchieu-store/" linkName="Visit Site" item1="HTML, CSS" item2="Bootstrap 4" item3="JavaScripts, Angular 8"/>
           <div className="card p-3">
             <blockquote className="blockquote mb-0 card-body">
             
@@ -66,7 +53,7 @@ function Main(){
               </footer>
             </blockquote>
           </div>
-        <Project videoURL="https://youtu.be/cgRV-PEwQfM" heading="Mobile Webapp" description="Webapp for travelers to find food & drink, hotels, shopping malls and parks and check the weathers before deciding where to go." item1="HTML, CSS" item2="JavaScripts" item3="jQuery Mobile, Bootstrap 4"/>
+        <Project videoBool="true" videoURL="https://youtu.be/cgRV-PEwQfM" heading="Mobile Webapp" description="Webapp for travelers to find food & drink, hotels, shopping malls and parks and check the weathers before deciding where to go." item1="HTML, CSS" item2="JavaScripts" item3="jQuery Mobile, Bootstrap 4"/>
         
        
          
