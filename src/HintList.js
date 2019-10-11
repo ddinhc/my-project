@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactTooltip from 'react-tooltip'
 export default class HintList extends React.Component {
     state = {
         on: false
