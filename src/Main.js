@@ -15,7 +15,7 @@ function Main(){
                     <ul className="list-group">
                           <li className="list-group-item d-flex justify-content-between align-items-center">
                             Employment: Web Developer at <HintList lang="DAP" hint="Disaster Accountablity Project" identifer="DAP" />
-                            <span className="badge badge-primary badge-pill">Sept 2017 - Current</span>
+                            <span className="badge badge-primary badge-pill">June 2019 - Current</span>
                           </li>
                           <li className="list-group-item d-flex justify-content-between align-items-center">
                           Education: Bachelor of Science - BS, Computer Science
